@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("back4");
+    background-size: cover;
+    background-repeat: repeat;
+}
+.navbar{
+    background-color: rgb(18, 33, 52);
+    font-size: 22px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainhead{
+   padding-top: 30px;
+   font-family: 'Times New Roman', Times, serif; 
+   font-weight: bolder;
+   font-style: italic;
+   font-size: 80px;
+   /* text-shadow: 2px gold; */
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para{
+    color: gold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+    /* text-decoration: dotted; */
+}
+.homecards{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ }

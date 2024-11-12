@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("london/londbckgrd");
+    background-size: contain;
+    background-repeat: repeat-y;   
+}
+.navbar{
+    background-color: rgb(1, 2, 20);
+    font-size: 22px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainhead{
+ color: rgb(11, 216, 247);
+ padding-top: 40px;
+ text-align: center;
+ font-size: 80px;
+ font-weight: lighter;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.subhead{
+    padding-top: 80px;
+    padding-left: 138px;
+    color: floralwhite;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parispics{
+    padding-left: 165px; 
+    padding-top: 80px;
+}
+.parispics img{
+    margin-top: 30px;
+    width: 220px;
+    height: 280px;
+    padding: 8px;
+    border-radius: 20px;
+    transition: 2s ease-out;
+    transform: rotate(-45deg);
+}
+.parispics img:hover{
+    transform: scale(2) !important;
+}
+
+
+.londpics{
+    gap: 50px;
+    padding-left: 130px;
+    padding-top: 100px;
+   
+}
+.londpics img {
+    margin: 30px;
+    width: 220px;
+    height: 280px;
+    border-radius: 20px;
+    opacity: 0; 
+    animation: zoomIn 10s forwards;
+    transform: rotate(-45deg);
+}
+@keyframes zoomIn {
+    to {
+        transform: scale(1.5);
+        opacity: 1;
+    }
+}
+.londpics img:nth-child(1) { animation-delay: 1s; }
+.londpics img:nth-child(2) { animation-delay: 3s; }
+.londpics img:nth-child(3) { animation-delay: 5s; }
+.londpics img:nth-child(4) { animation-delay: 7s; }
+.londpics img:nth-child(5) { animation-delay: 1s; }
+.londpics img:nth-child(6) { animation-delay: 3s; }
+.londpics img:nth-child(7) { animation-delay: 7s; }
+.londpics img:nth-child(8) { animation-delay: 9s; }
+.londpics img:nth-child(9) { animation-delay: 1s; }
+.londpics img:nth-child(10) { animation-delay: 3s; }
+.londpics img:nth-child(11) { animation-delay: 7s; }
+.londpics img:nth-child(12) { animation-delay: 9s; }
+
+.londpics img:hover{
+    transform: scale(2) !important;
+}
+.footer{
+    color: white;
+    text-align: center;
+    font-family: serif;
+}
+
+
+
+
+
+
+

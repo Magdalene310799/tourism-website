@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("parisbckgrd");
+    background-size: contain;
+    background-repeat: repeat-y;   
+}
+.navbar{
+    background-color: rgb(4, 5, 40);
+    font-size: 22px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainhead{
+ color: rgb(11, 216, 247);
+ padding-top: 40px;
+ text-align: center;
+ font-size: 80px;
+ font-weight: lighter;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.subhead{
+    padding-top: 80px;
+    padding-left: 138px;
+    color: floralwhite;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parispics{
+    padding-left: 224px; 
+}
+img{
+    width: 220px;
+    height: 280px;
+    padding: 8px;
+    border-radius: 20px;
+}
+img:hover{
+    transform: scale(2.0); /* Adjust scale for hover size */
+    z-index: 10; 
+}
+.footer{
+    color: white;
+    text-align: center;
+    font-family: serif;
+}
