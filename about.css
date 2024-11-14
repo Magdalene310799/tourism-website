@@ -111,21 +111,6 @@ body{
     font-size: 35px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }  
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
 .card {
     width: 360px;
     margin: 20px auto;
@@ -154,6 +139,11 @@ body{
     color: #1e0e0e;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer{
+    color: white;
+    text-align: center;
+    font-family: serif;
 }
 
 

@@ -45,32 +45,32 @@ body {
     width: 300px;
     height: 200px;
 }
-/* #spcl_cards .card-container .card {
+#spcl_cards .card-container .card {
     position: absolute;
     width: 150px;
     height: 220px;
     transform-origin: bottom center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
-    overflow: hidden; /* To round corners on images */
-    /* transition: transform 10s ease-in-out;
-    animation: spread 20s infinite; */
-/* } */ */
-/* @keyframes spread{
+    overflow: hidden; 
+    transition: transform 10s ease-in-out;
+    animation: spread 20s infinite; 
+} 
+@keyframes spread{
     100%{
         transform: rotateY(360deg);
         transform: scale(1.5);
     }
-} */
-/* #spcl_cards.card-container.card img {
+} 
+#spcl_cards.card-container.card img {
     width: 100%;
     height: 100%;
     object-fit: cover; 
-} */
-/* #spcl_cards .card-container .card:hover {
+}
+#spcl_cards .card-container .card:hover {
     transform: scale(3.0); 
     z-index: 10;
-} */
+}
   /* Fan-like arrangement using rotation and small translations */
   #spcl_cards .card-container .card:nth-child(1) { transform: rotate(-80deg); left: 0px; }
   #spcl_cards .card-container .card:nth-child(2) { transform: rotate(-60deg); left: 10px; }

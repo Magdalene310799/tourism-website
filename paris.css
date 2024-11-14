@@ -14,16 +14,16 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .mainhead{
- color: rgb(11, 216, 247);
- padding-top: 40px;
- text-align: center;
- font-size: 80px;
- font-weight: lighter;
- font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(11, 216, 247);
+    padding-top: 40px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .subhead{
     padding-top: 80px;
-    padding-left: 138px;
+    padding-left: 250px;
     color: floralwhite;
     font-size: 50px;
     font-weight: bold;
@@ -34,13 +34,13 @@ body{
     padding-left: 224px; 
 }
 img{
-    width: 220px;
-    height: 280px;
+    width: 240px;
+    height: 300px;
     padding: 8px;
     border-radius: 20px;
 }
 img:hover{
-    transform: scale(2.0); /* Adjust scale for hover size */
+    transform: scale(1.8); /* Adjust scale for hover size */
     z-index: 10; 
 }
 .footer{
